@@ -169,9 +169,16 @@ body.helpers .nav a:hover { color: var(--green-l); }
 /* Footer */
 footer { padding: 48px 0 40px; font-size: 15px; color: var(--muted); border-top: 1px solid var(--line); }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-start; justify-content: space-between; }
-footer .brand { font-size: 18px; }
+footer .brand { font-size: 18px; color: var(--ink); }
 footer nav { display: flex; gap: 20px; flex-wrap: wrap; }
 footer nav a { color: var(--ink); text-decoration: none; font-weight: 600; }
+footer .maker { flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding-top: 24px; border-top: 1px solid var(--line); }
+footer .makerLabel { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
+footer .makerName { font-size: 22px; font-weight: 800; letter-spacing: -.4px; color: var(--ink); text-decoration: none; }
+footer .makerName:hover { color: var(--green); }
+footer .makerWhere { font-size: 15px; }
 footer .fine { flex-basis: 100%; font-size: 13.5px; }
 body.helpers footer { border-color: var(--dark-line); color: var(--dark-muted); }
-body.helpers footer .brand, body.helpers footer nav a { color: #fff; }
+body.helpers footer .brand, body.helpers footer nav a, body.helpers footer .makerName { color: #fff; }
+body.helpers footer .maker { border-color: var(--dark-line); }
+body.helpers footer .makerName:hover { color: var(--green-l); }
