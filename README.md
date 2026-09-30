@@ -2,7 +2,7 @@
 
 The website for **Msaidizi**, trusted house help on demand in Kenya, and **Mfanyikazi**, its app for the mama fuas, cleaners and cooks who do the jobs. Both apps are by Pizza Technologies.
 
-**https://pizzatechies.github.io/mfanyikazi/**
+**https://pizzatechke.github.io/mfanyikazi/**
 
 - `index.html`: Msaidizi, for families who book help
 - `mfanyikazi.html`: Mfanyikazi, for helpers looking for work
